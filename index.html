@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR Example</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+    <script src="https://unpkg.com/fullscreen-polyfill@1.0.2/dist/fullscreen.polyfill.js"></script>
+</head>
+
+<body>
+    <model-viewer style="width: 400px; height: 100vh; margin: 0 auto;"
+        src="https://d1a370nemizbjq.cloudfront.net/d7179472-65a3-4dab-9238-3cd295f2438a.glb" seamless-poster
+        environment-image="neutral" shadow-intensity="1" autoplay ar ar-modes="webxr scene-viewer quick-look"
+        camera-controls auto-rotate interaction-prompt-threshold="1500" camera-controls enable-pan></model-viewer>
+</body>
+
+</html>
